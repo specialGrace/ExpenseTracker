@@ -1,38 +1,147 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ .app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:15px;
+} 
+
+.appcontainer{
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: whitesmoke;
+} 
+
+.header{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.balance {
+  padding-right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.balanceContainer{
+  padding-left:  30px;
+    margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.table-container {
+  border-radius: 5px;
+  width: 300px;
+  height: 80px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding-right: 30px;  
+  margin-top: 20px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 5px 5px 10px black;
 }
 
-.App-link {
-  color: #61dafb;
+ .cards-container table tr{
+  border:  1px solid grey;
+} 
+
+.expenseCard{
+  padding-left: 30px;
+  border-left: 1px solid grey;
+} 
+
+.qty{
+  color: purple;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.expense{
+  color:pink;
+  padding-left: 20px;
 }
+.formContainer {
+    padding-left: 26px;
+       margin-top: 20px;  
+}
+
+input{
+  margin-right: 30px;  
+  width: 300px;
+  height: 30px;
+  border: none;
+  background-color: white;
+  padding-left: 5px;
+  margin-top: 15px;
+}
+
+.btn{
+  margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    color: beige;
+    background-color: purple;
+    border: none;
+
+}
+
+.historyContainer {
+  margin: 25px;
+  width: 300px;
+  overflow-wrap:break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  white-space: normal;
+}
+
+.historyCards{
+  display: flex;
+   justify-content: space-between;
+  align-items: center; 
+  box-shadow: 5px 5px 10px black;
+  background-color: white;
+  border-right: 4px solid pink;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  white-space: normal;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.numberitem{
+  padding: 10px;
+  overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    white-space: normal; 
+    width: 100px;
+}
+
+.textitem{
+  padding: 5px;
+  width: 200px;
+    overflow-wrap: break-word;
+      word-wrap: break-word;
+      text-overflow: ellipsis;
+      hyphens: auto;
+      white-space: normal;
+} 
+
+.history{
+ margin: 28px; 
+ margin-bottom: 5px;
+} 
+
+.historyLine{
+  width: 300px;
+  margin-left: 25px;
+}
+
+.formLine{
+  width: 300px;
+  margin-top:5px ;
+}
+
